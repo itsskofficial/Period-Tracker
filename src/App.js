@@ -79,12 +79,14 @@ return (
         {date}
       </Moment>
           </div>
+          <div className="col-md-3 m-3 box ">
 			<p>Next Period</p>
 
 			<Moment format="Do MMMM YYYY"
 				add={{ days: cycleLength - 1 }}>
 				{date}
-      </Moment>
+            </Moment>
+            </div>
       
 		</div>
 		</div>
