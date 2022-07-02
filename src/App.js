@@ -30,7 +30,6 @@ return (
 			<h4 id="title">Track your periods with relief</h4>
 		</div>
 		</nav>
-		<h4>Calculate Next Period Date</h4>
 
 		<label for="cycle">Select your cycle length : </label>
 		<select
