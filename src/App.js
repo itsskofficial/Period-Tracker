@@ -19,7 +19,7 @@ return (
 	<>
 	<div className="text-center">
 		<nav className="navbar navbar-light bg-light">
-		<div className="container-fluid text-center">
+		<div class="navbar">
 			<img
 			src={logo}
 			alt=""
@@ -27,8 +27,7 @@ return (
 			height="150"
 			className="d-inline-block"
 			/>
-
-			<h4>Track your periods with relief</h4>
+			<h4 id="title">Track your periods with relief</h4>
 		</div>
 		</nav>
 		<h4>Calculate Next Period Date</h4>
