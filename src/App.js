@@ -72,14 +72,20 @@ return (
 	<div className="text-center mt-4 p-2">
 		<div className="row">
 		<div class="d-flex justify-content-center">
-			<div className="col-md-3 m-3 box ">
+          <div className="col-md-3 m-3 box ">
+          <p>Previous Period</p>
+      <Moment format="Do MMMM YYYY"
+        subtract={{ days: cycleLength }}>
+        {date}
+      </Moment>
+          </div>
 			<p>Next Period</p>
 
 			<Moment format="Do MMMM YYYY"
 				add={{ days: cycleLength - 1 }}>
 				{date}
-			</Moment>
-			</div>
+      </Moment>
+      
 		</div>
 		</div>
 	</div>
